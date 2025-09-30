@@ -115,7 +115,7 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 <H3>Program:</H3> 
-```
+
 ```python
 import pandas as pd
 import sklearn
@@ -152,7 +152,6 @@ print("\nConfusion Matrix:\n", confusion_matrix(y_test, predictions))
 print("\nClassification Report:\n", classification_report(y_test, predictions))
 ```
 
-```
 
 <H3>Output:</H3>
 <img width="618" height="493" alt="image" src="https://github.com/user-attachments/assets/e9c02709-8059-40ff-9715-4fd7dccf63dd" />
